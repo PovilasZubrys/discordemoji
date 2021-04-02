@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord emoji text</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Convert text to discords emoji text!</h1>
+    </header>
+    <main>
+        <div class="notice">
+            This is still in very early development. Sadly, only latin alphabet with question marks and exlamations allowed.
+        </div>
+        <ol class="instructions">
+            <li>Write your text</li>
+            <li>Click submit</li>
+            <li>Copy text</li>
+            <li>Paste to your desired discord chat</li>
+            <li>Have fun!</li>
+        </ol>
+        <form action="" id="form">
+            <textarea name="text" placeholder="Typehere..." id="text"></textarea>
+    
+            <input type="submit" onclick="textToEmoji()">
+        </form>
+        <h2>Copy this text and paste it to discord chat!</h2>
+        <div id="result">
+
+        </div>
+    </main>
+    <script src="./js/textToEmoji.js"></script>
+</body>
+</html>
